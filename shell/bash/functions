@@ -1,0 +1,24 @@
+# genstring()
+# 
+# generates a random alphanumerical string.
+genstring() {
+	local len
+	if [ $# -eq 0 ]; then
+		len=32
+	else
+		len=$1
+	fi
+	tr -dc A-Za-z0-9_ < /dev/urandom | head -c $len | xargs
+}
+
+# gu()
+#
+# updates all git repos found under current dir.
+gu() {
+	find . -name .git -type d -prune | while read d; do
+		cd $d/..
+		echo -e "\033[1;36m $PWD >" "\033[1;32m git pull" "\033[0m"
+		git pull
+		cd $OLDPWD
+	done
+}

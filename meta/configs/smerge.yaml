@@ -1,0 +1,5 @@
+- sudo:
+    - shell:
+    - [wget -qO - https://www.sublimemerge.com/download_thanks?target=x64-deb, Installing sublime merge (1/3)]
+    - [echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list, Installing sublime merge (2/3)]
+    - [apt update && apt install -y sublime merge, Installing sublime merge (3/3)]

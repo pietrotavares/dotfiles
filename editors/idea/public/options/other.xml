@@ -1,0 +1,52 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="24eKBScYBPwvCF2tO4RnPscRXgJ">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="MesloLGS Nerd Font" />
+    <option name="fontScale" value="1.0" />
+    <option name="fontSize" value="12" />
+    <option name="ideAAType" value="Greyscale" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="CWM_LOGGING_VERSION" value="1" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.60164833" />
+    <property name="MarketplacePluginsSearchHistory" value="protobuf&#10;protoub&#10;protou" />
+    <property name="NonModalCommitPromotionState" value="ACCEPTED" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="SettingsSearchHistory" value="style&#10;maven" />
+    <property name="appcds.runOnSecondStart" value="IU-213.6777.52-2dae31cb3da8f604c481c90321ba2ed8f31c6803ff4c91f68fd4448060105771" />
+    <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
+    <property name="bundled.plugins.list.saved.version" value="IU-213.6777.52" />
+    <property name="defaultJdkConfigured" value="true" />
+    <property name="eclipse.projects.detected" value="" />
+    <property name="file.chooser.recent.files" value="/usr/lib/jvm/java-1.8.0-openjdk-amd64&#10;/usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/bin&#10;/usr/lib/jvm/java-1.8.0-openjdk-amd64/bin&#10;/home/pietro/Git/dremio" />
+    <property name="file.gist.reindex.count" value="474" />
+    <property name="fileTypeChangedCounter" value="32" />
+    <property name="fileTypeDetectors" value="com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector:com.android.tools.idea.sqlite.fileType.SqliteFileTypeDetector:com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.docker.dockerFile.DockerFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:com.intellij.profiler.ultimate.hprof.impl.HprofFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector:com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
+    <property name="got.it.tooltip.changes.view.toolwindow" value="1" />
+    <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
+    <property name="gotit.previous.run" value="IU-213.6777.52" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ide.updates.whats.new.shown.for" value="213" />
+    <property name="ideavim.statistics.timestamp" value="1643985500179" />
+    <property name="input.method.disabler.muted" value="true" />
+    <property name="installed.kotlin.plugin.version" value="213-1.5.10-release-949-IJ6777.52" />
+    <property name="last_opened_file_path" value="/usr/lib/jvm/java-1.8.0-openjdk-amd64" />
+    <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
+    <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
+    <property name="packagesearch.status.updated.ts" value="1643985478092" />
+    <property name="registry.to.advanced.settings.migration.build" value="IU-213.6777.52" />
+    <property name="settings.code.style.selected.tab.JAVA" value="Imports" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.5.4" />
+  </component>
+</application>

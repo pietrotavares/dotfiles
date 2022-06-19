@@ -1,0 +1,22 @@
+- apt:
+    - flatpak
+    - gnome-software-plugin-flatpak
+
+- sudo:
+    - shell:
+        - [flatpak remote-add --if-not-exists flathub "https://flathub.org/repo/flathub.flatpakrepo", Installing flatpak (1/2)]
+        - [flatpak --user update com.stremio.Stremio, Installing flatpak (2/2)]
+
+
+- shell:
+    # Stremio
+    - [flatpak install --user "https://flathub.org/repo/appstream/com.stremio.Stremio.flatpakref", Installing stremio (1/2)]
+    # ungoogled-chromium
+    - [flatpak remote-add --if-not-exists "flathub https://flathub.org/repo/flathub.flatpakrepo", Installing ungoogled-chromium (1/2)]
+    - [flatpak install flathub com.github.Eloston.UngoogledChromium, Installing ungoogled-chromium (2/2)]
+    # m64p
+    - [flatpak install flatpak install flathub io.github.m64p.m64p, Installing m64p (1/1)]
+    # pcsx2
+    - [flatpak install flathub net.pcsx2.PCSX2, Installing pcsx2 (1/1)]
+    # rpcs3
+    - [flatpak install flathub net.rpcs3.RPCS3, Installing rpcs3 (1/1)]

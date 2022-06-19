@@ -1,0 +1,37 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.1366.0.1920.1080" x="1944" y="544" />
+    <size key="find.popup.1366.0.1920.1080" width="1296" height="510" />
+  </component>
+  <component name="WindowManager">
+    <frame x="683" y="-17" width="683" height="763" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="529" y="199" width="501" height="338" key="FileChooserDialogImpl" timestamp="1644089210470">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="529" y="199" width="501" height="338" key="FileChooserDialogImpl/0.0.1366.768" timestamp="1644089210470" />
+    <state x="2109" y="280" width="430" height="475" key="FileChooserDialogImpl/0.0.1366.768/1366.0.1920.1080" timestamp="1643985469993" />
+    <state x="2941" y="679" width="300" height="268" key="ProcessPopupWindow" timestamp="1643993871069">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2941" y="679" width="300" height="268" key="ProcessPopupWindow/0.0.1366.768/1366.0.1920.1080" timestamp="1643993871069" />
+    <state width="736" height="78" key="ShowUsagesActions.dimensionServiceKey" timestamp="1644002198321">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="736" height="78" key="ShowUsagesActions.dimensionServiceKey/0.0.1366.768/1366.0.1920.1080" timestamp="1644002198320" />
+    <state x="1024" y="364" width="683" height="763" key="WELCOME_SCREEN" timestamp="1644089211673">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="1024" y="364" width="683" height="763" key="WELCOME_SCREEN/0.0.1366.768" timestamp="1644089211673" />
+    <state x="1846" y="522" width="960" height="1075" key="WELCOME_SCREEN/0.0.1366.768/1366.0.1920.1080" timestamp="1643985477379" />
+  </component>
+</application>

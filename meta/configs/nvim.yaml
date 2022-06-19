@@ -1,0 +1,8 @@
+- apt:
+  - lua5.3
+  - luajit
+
+- sudo:
+  - shell:
+    - [(cd /usr/bin && curl -LO "https://github.com/neovim/neovim/releases/latest/download/nvim.appimage"), Installing nvim (1/2)] 
+    - [chmod u+x /usr/bin/nvim.appimage, Installing nvim (2/2)]

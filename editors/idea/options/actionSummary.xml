@@ -1,0 +1,214 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="3" l="1644002160427" />
+    </e>
+    <e n="$SelectAll">
+      <i c="17" l="1644004802601" />
+    </e>
+    <e n="$Undo">
+      <i c="13" l="1644004057710" />
+    </e>
+    <e n="ActivateMavenToolWindow">
+      <i c="1" l="1643986322366" />
+    </e>
+    <e n="ChangesView.Revert">
+      <i c="1" l="1643995043263" />
+    </e>
+    <e n="CheckinProject">
+      <i c="2" l="1644000229604" />
+    </e>
+    <e n="CopyFileName">
+      <i c="1" l="1644003649803" />
+    </e>
+    <e n="CopyReferencePopupGroup">
+      <i c="1" l="1644003647540" />
+    </e>
+    <e n="EditCustomProperties">
+      <i c="1" l="1643985499978" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="102" l="1644005265704" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="3" l="1644003529562" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="32" l="1644004760278" />
+    </e>
+    <e n="EditorCopy">
+      <i c="38" l="1644089208142" />
+    </e>
+    <e n="EditorCut">
+      <i c="4" l="1643994878553" />
+    </e>
+    <e n="EditorDown">
+      <i c="7" l="1644003458222" />
+    </e>
+    <e n="EditorEnter">
+      <i c="44" l="1644005267348" />
+    </e>
+    <e n="EditorLineStart">
+      <i c="1" l="1643996846785" />
+    </e>
+    <e n="EditorPaste">
+      <i c="45" l="1644005259386" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="1" l="1643998014195" />
+    </e>
+    <e n="Find">
+      <i c="7" l="1644004798377" />
+    </e>
+    <e n="FindInPath">
+      <i c="13" l="1644004772997" />
+    </e>
+    <e n="FindUsages">
+      <i c="3" l="1644003078671" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="15" l="1644004858267" />
+    </e>
+    <e n="InvalidateCaches">
+      <i c="1" l="1643986915560" />
+    </e>
+    <e n="Maven.IgnoreProjects">
+      <i c="4" l="1643986547933" />
+    </e>
+    <e n="Maven.Reimport">
+      <i c="1" l="1643990027757" />
+    </e>
+    <e n="Maven.ReimportProject">
+      <i c="1" l="1643988905074" />
+    </e>
+    <e n="Move">
+      <i c="5" l="1644004332500" />
+    </e>
+    <e n="NewClass">
+      <i c="5" l="1644005238362" />
+    </e>
+    <e n="NewDir">
+      <i c="1" l="1644004153708" />
+    </e>
+    <e n="RenameElement">
+      <i c="7" l="1644005213106" />
+    </e>
+    <e n="RenameFile">
+      <i c="1" l="1643993265216" />
+    </e>
+    <e n="SaveAll">
+      <i c="6" l="1644005284167" />
+    </e>
+    <e n="SearchEverywhere">
+      <i c="2" l="1644002663490" />
+    </e>
+    <e n="SelectInProjectView">
+      <i c="2" l="1644004860213" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="6" l="1644003852449" />
+    </e>
+    <e n="ShowSettings">
+      <i c="15" l="1643996842025" />
+    </e>
+    <e n="SplitVertically">
+      <i c="1" l="1644000294640" />
+    </e>
+    <e n="TabList">
+      <i c="5" l="1644003835501" />
+    </e>
+    <e n="Table-selectNextRow">
+      <i c="9" l="1643996906131" />
+    </e>
+    <e n="Table-selectPreviousRow">
+      <i c="2" l="1643996906322" />
+    </e>
+    <e n="Vcs.RollbackChangedLines">
+      <i c="2" l="1643995028993" />
+    </e>
+    <e n="Vcs.ShowHistoryForBlock">
+      <i c="1" l="1643994914132" />
+    </e>
+    <e n="WelcomeScreen.Configure.Import">
+      <i c="1" l="1644089195453" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1643985463557" />
+    </e>
+    <e n="com.intellij.application.options.ImportLayoutPanel$AddBlankLineAction">
+      <i c="5" l="1643996997370" />
+    </e>
+    <e n="com.intellij.application.options.ImportLayoutPanel$AddPackageAction">
+      <i c="2" l="1643996985871" />
+    </e>
+    <e n="com.intellij.codeInsight.daemon.NavigateAction">
+      <i c="1" l="1643994980954" />
+    </e>
+    <e n="com.intellij.diagnostic.LowMemoryNotifier$2">
+      <i c="1" l="1643986821399" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$11">
+      <i c="7" l="1644004807438" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+      <i c="19" l="1644004806480" />
+    </e>
+    <e n="com.intellij.notification.EventLogConsole$ClearLogAction">
+      <i c="2" l="1643994437062" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="5" l="1643994348401" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.DefaultActionGroup">
+      <i c="1" l="1643989964723" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.EmptyAction$MyDelegatingAction">
+      <i c="281" l="1644005602572" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$StatusAction">
+      <i c="1" l="1644004791185" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="8" l="1644004329092" />
+    </e>
+    <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
+      <i c="3" l="1644004702906" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="1" l="1644002161182" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.ToolWindowHeader$HideAction">
+      <i c="19" l="1644004794414" />
+    </e>
+    <e n="com.intellij.ui.AnActionButton$GroupPopupWrapper">
+      <i c="7" l="1643996996687" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="1" l="1643986567298" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$DownButton">
+      <i c="6" l="1643996953863" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$RemoveButton">
+      <i c="1" l="1643996935111" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$UpButton">
+      <i c="7" l="1643996909479" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="3" l="1644002670760" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$TableMoveDownAction">
+      <i c="3" l="1644004382196" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$TableMoveUpAction">
+      <i c="3" l="1644004386364" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$notifyAboutShortcutConflict$1">
+      <i c="7" l="1644000224401" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="2" l="1643996668216" />
+    </e>
+  </component>
+</application>

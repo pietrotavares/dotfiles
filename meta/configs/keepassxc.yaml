@@ -1,0 +1,5 @@
+- apt:
+  - keepassxc
+
+- link:
+    ~/passwords.kbdx: misc/passwords/passwords.kbdx

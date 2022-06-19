@@ -1,0 +1,4 @@
+- sudo:
+  - shell:
+    - [curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl", Installing kubectl (1/2)]
+    - [install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl, Installing kubectl (2/2)]

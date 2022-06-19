@@ -1,0 +1,16 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- sudo:
+    - shell:
+        - ["add-apt-repository ppa:regolith-linux/release", Installing i3-gaps (1/3)]
+        - ["apt update -y", Installing i3-gaps (2/3)]
+        - ["apt install -y i3-gaps", Installing i3-gaps (3/3)]
+
+- link:
+    ~/.config/i3/config: gui/i3/config
+    ~/.config/i3status/config: gui/i3/status/config
+    ~/.config/i3blocks/config: gui/i3/blocks/config

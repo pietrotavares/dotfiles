@@ -1,0 +1,10 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- link:
+    ~/.local/bin/gdrive-backup.sh: misc/scripts/gdrive-backup.sh
+    ~/.local/bin/physical-backup.sh: misc/scripts/physical-backup.sh
+    ~/.local/bin/keepass2csv2pass.py: misc/scripts/keepass2csv2pass.py

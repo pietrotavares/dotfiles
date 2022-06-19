@@ -1,0 +1,10 @@
+<application>
+  <component name="Azure Toolkit for IntelliJ">
+    <option name="properties">
+      <map>
+        <entry key="account.azure_environment" value="Azure" />
+        <entry key="telemetry.telemetry_allow_telemetry" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

@@ -1,0 +1,75 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+    clean:
+      force: true
+
+- shell:
+    - ["git submodule update --init --recursive --remote", "Installing submodules"]
+    - ["pip install --upgrade pip"]
+
+- clean: [
+    '~',
+    '~/.config',
+]
+
+- link:
+    ~/.dotfiles: ''
+
+- sudo:
+    - apt:
+        - curl
+        - build-essential
+        - cmake
+        - ninja-build
+        - sbuild
+        - libgtk-3-dev
+        - libx11-dev
+        - libxft-dev
+        - libharfbuzz-dev
+        - libegl1-mesa
+        - libgl1-mesa-glx
+        - libxcb-xtest0
+        - libtinfo-dev
+        - libfdk-aac1
+        - libmpv1
+        - libgconf-2-4
+        - libappindicator1
+        - libc++1
+        - sysstat
+        - ffmpeg
+        - vlc
+        - pavucontrol
+        - qml-module-qtquick-controls
+        - qml-module-qtquick-dialogs
+        - qml-module-qtwebchannel
+        - qml-module-qtwebengine
+        - qml-module-qt-labs-folderlistmodel
+        - qml-module-qt-labs-settings
+        - qml-module-qt-labs-platform
+        - ibus
+        - acpi
+        - alsa-utils
+        - id3v2
+        - python3-dev
+        - htop
+        - scrot
+        - ltrace
+        - strace
+        - git-extras
+        - xdotool
+        - deluge
+        - openvpn
+        - network-manager-openvpn
+        - network-manager-openvpn-gnome
+        - network-manager-l2tp-gnome
+        - sxiv
+        - redshift
+        - vagrant
+        - cryfs
+        - rclone
+        - sirikali
+        - telegram-desktop
+        - anki
+        - caffeine

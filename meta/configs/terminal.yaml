@@ -1,0 +1,24 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- apt:
+  - tmux
+  - fzf
+
+- cargo:
+    - bat
+    - lsd
+    - ripgrep
+
+- link:
+    ~/.local/src/st: terminal/st/*
+    ~/.tmux.conf: terminal/tmux.conf
+    ~/.config/bat/config: terminal/util/bat/config
+    ~/.config/lsd/config.yaml: terminal/util/lsd/config.yaml
+
+- shell:
+  - [tmux source-file ~/.tmux.conf || true, Sourcing tmux configuration (1/1)]
+
