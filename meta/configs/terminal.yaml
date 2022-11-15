@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- sudo:
+  - apt:
+    - tmux
+    - fzf
+    - ripgrep
+
+- link:
+    ~/.tmux.conf: terminal/tmux.conf
+
+- shell:
+  - [tmux source-file ~/.tmux.conf || true, Sourcing tmux configuration (1/1)]
+

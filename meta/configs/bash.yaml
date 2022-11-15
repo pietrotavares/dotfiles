@@ -1,0 +1,12 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- link:
+    ~/.profile: shell/.profile
+    ~/.bashrc: shell/.bashrc
+    ~/.bash_aliases: shell/.bash_aliases
+    ~/.bash_profile: shell/.bash_profile
+    ~/.bash_logout: shell/.bash_logout

@@ -1,0 +1,104 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+    clean:
+      force: true
+
+- shell:
+    - ["git submodule update --init --recursive --remote", "Installing submodules"]
+    - ["pip install --upgrade pip"]
+
+- clean: [
+    '~',
+    '~/.config',
+]
+
+- link:
+    ~/.dotfiles: ''
+
+- sudo:
+    - apt:
+        #########################
+        #         BASE          #
+        #########################
+        - git
+        - git-extras
+        - net-tools
+        - openvpn
+        - network-manager-openvpn
+        - network-manager-openvpn-gnome
+        - network-manager-l2tp-gnome
+        - ltrace
+        - strace
+        - sysstat
+        - jq
+        - xxd
+        - expect
+        - keyutils
+        - passwd
+        - openssh-client
+        - htop
+        - scrot
+        - sxiv
+        - tree
+        - sharutils
+        - dmsetup
+        - sshpass
+        - ffmpeg
+        - vlc
+        - alsa-utils
+        - libgconf-2-4
+        #########################
+        #          GUI          #
+        #########################
+        - ibus
+        - acpi
+        - pavucontrol
+        - libappindicator1
+        - qml-module-qtquick-controls
+        - qml-module-qtquick-dialogs
+        - qml-module-qtwebchannel
+        - qml-module-qtwebengine
+        - qml-module-qt-labs-folderlistmodel
+        - qml-module-qt-labs-settings
+        - qml-module-qt-labs-platform
+        #########################
+        #  USER LIBRARIES, ETC  #
+        #########################
+        - libegl1-mesa
+        - libgl1-mesa-glx
+        - libxcb-xtest0
+        - libmpv1
+        #########################
+        # BUILD & DEV LIBRARIES #
+        #########################
+        - gcc
+        - make
+        - cmake
+        - autoconf
+        - automake
+        - autopoint
+        - pkg-config
+        - sbuild
+        - ninja-build
+        - build-essential
+        - libtool
+        - gettext
+        - uuid-dev
+        - libssl-dev
+        - libssh-dev
+        - libdevmapper-dev
+        - libpopt-dev
+        - libsepol1-dev
+        - libjson-c-dev
+        - libblkid-dev
+        - libargon2-0-dev
+        - libpwquality-dev
+        - libgtk-3-dev
+        - libx11-dev
+        - libxft-dev
+        - libharfbuzz-dev
+        - libtinfo-dev
+        - libc++1
+        - python3-dev

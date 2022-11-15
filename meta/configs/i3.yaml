@@ -1,0 +1,14 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+      force: true
+
+- sudo:
+  - apt:
+    - i3
+
+- link:
+    ~/.config/i3/config: gui/i3/config
+    ~/.config/i3status/config: gui/i3/status/config
+    ~/.config/i3blocks/config: gui/i3/blocks/config

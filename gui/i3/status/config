@@ -1,0 +1,49 @@
+general {
+        colors = false
+        interval = 10
+        color_good = '#B5BD68'
+	    color_bad = '#CC6666'
+}
+
+order = "ethernet enp1s0"
+order += "wireless wlp2s0"
+order += "volume master"
+order += "battery 1"
+order += "tztime local"
+
+
+ethernet enp1s0 {
+        format_up = " %ip "
+        format_down = " [down]"
+}
+
+wireless wlp2s0 {
+        format_up = "  %ip [%essid]"
+        format_down = " [down]"
+}
+
+volume master {
+        format = "♪ %volume"
+        format_muted = "♪ 0%"
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}
+
+battery 1 {
+	    last_full_capacity = true
+        format = "s%status %percentage"
+        format_down = "N/A"
+        status_chr = ""
+        status_bat = ""
+        status_unk = ""
+        status_full = ""
+        path = "/sys/class/power_supply/BAT%d/uevent"
+        low_threshold = 10
+}
+
+tztime local {
+	format = ": %time"
+	format_time = "%a %-d %b %H:%M"
+}
+

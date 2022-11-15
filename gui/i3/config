@@ -1,0 +1,142 @@
+set $mod Mod4
+font xft:MesloLGS Nerd Font 9
+floating_modifier $mod
+new_window pixel 3
+
+#
+# Locking / Exiting
+#
+bindsym $mod+Shift+z exec "/home/pietro/.i3/scripts/i3lock.sh"
+bindsym $mod+Delete exec "/home/pietro/.i3/scripts/i3exit.sh"
+
+for_window [class="I3-exit"] floating enable border normal
+
+#
+# Monitor Settings
+#
+bindsym $mod+m         exec xrandr --output HDMI-1-1--auto && xrandr --output eDP-1-1 --off
+bindsym $mod+shift+m   exec xrandr --output HDMI1 --auto --left-of eDP1
+
+#
+# Keybindings
+#
+## 1. Defaults (unchanged)
+##
+bindsym $mod+Shift+q kill
+bindsym $mod+d exec dmenu_run
+bindsym $mod+Return exec st
+##
+## 2. Containers: Navigation / Manipulation
+##
+bindsym $mod+j focus left
+bindsym $mod+k focus down
+bindsym $mod+l focus up
+bindsym $mod+ccedilla focus right
+bindsym $mod+Shift+j move left
+bindsym $mod+Shift+k move down
+bindsym $mod+Shift+l move up
+bindsym $mod+Shift+ccedilla move right
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+bindsym $mod+Tab focus right
+bindsym $mod+Shift+Tab focus left
+bindsym $mod+h split h
+bindsym $mod+v split v
+bindsym $mod+f fullscreen
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym $mod+a focus parent
+mode "resize" {
+        bindsym j resize shrink width 10 px or 10 ppt
+        bindsym k resize grow height 10 px or 10 ppt
+        bindsym l resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+##
+## 3. Workspaces: Navigation / Manipulation
+##
+set $ws1    1.main
+set $ws2    2.code
+set $ws3    3.disc
+set $ws4    4.term
+set $ws5    5.aux1
+set $ws6    6.aux2
+set $ws7    7.zoom
+set $ws8    8.mail
+set $ws9    9.chat
+set $ws10  10.misc
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+bindsym $mod+Shift+greater move workspace to output right
+bindsym $mod+Shift+less move workspace to output left
+##
+## 4. Reload / Restart (i3)
+##
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+##
+## 5. Audio 
+##
+bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+
+bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%-
+bindsym XF86AudioMute exec --no-startup-id amixer -D pulse set Master 1+ toggle
+##
+## 6. Screen Brightness
+##
+bindsym XF86MonBrightnessDown exec light -U 5
+bindsym XF86MonBrightnessUp exec light -A 5
+##
+## 7. Startup
+##
+exec --no-startup-id nm-applet
+exec --no-startup-id i3-msg 'workspace $ws1; exec firefox'
+## TODO: fix race condition. (sleep doesn't cut it, try a boot.sh script)
+#exec --no-startup-id i3-msg 'sleep 2; workspace $ws2; exec st'
+#exec --no-startup-id i3-msg 'sleep 3; workspace $ws3; exec discord'
+#exec --no-startup-id i3-msg 'sleep 5; workspace $ws4; exec firefox'
+#exec --no-startup-id i3-msg 'sleep 7; workspace $ws5; exec firefox'
+#exec --no-startup-id i3-msg 'sleep 9; workspace $ws6; exec firefox'
+#exec --no-startup-id i3-msg 'sleep 10; workspace $ws8; exec claws-mail'
+#exec --no-startup-id i3-msg 'sleep 11 workspace $ws9; exec ~/.local/bin/Telegram/Telegram; workspace $ws1'
+##
+## 8. Misc
+##
+bindsym Print exec scrot 'screenshot--%F--%I:%M:%S:%p--$wx$h.png' -e 'mv $f /home/pietro/Media/Pictures/'
+##
+## 9. System Control (DISABLED)
+##
+bindsym $mod+Escape mode "System Control:"
+mode "System Control:" {
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
+bar {
+	status_command i3status
+}
+
